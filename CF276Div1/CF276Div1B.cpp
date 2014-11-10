@@ -1,3 +1,4 @@
+//An usage of lower_bound
 #include <iostream>
 #include <stdio.h>
 #include <algorithm>
@@ -33,7 +34,6 @@ int main()
         for(int j = a[i]; j <= 2*maxn; j+=a[i])
         {
             int index = lower_bound(a, a+cnt, j) - a - 1;
-            if(index >= i && index < cnt) ans = max(ans, a[index]%a[i]);
             if(index == cnt-1) break;
         }
     }
