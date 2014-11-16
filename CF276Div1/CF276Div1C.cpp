@@ -1,3 +1,4 @@
+//an usage of fast power
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
