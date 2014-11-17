@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+//an usage of fast power
+>>>>>>> 39f750d64467e6c1b3eebdbb97fc013d8804cfab
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
@@ -7,6 +11,19 @@ const int MAXN = 1e6 + 5;
 int n, m;
 int x[MAXN], origin[MAXN], temp[MAXN];
 
+<<<<<<< HEAD
+=======
+int* multi(int *a, int *b)
+{
+    int *c;
+    for(int i = 0; i != n; i++)
+    {
+        c[i] = a[b[i]];
+    }
+    return c;
+}
+
+>>>>>>> 39f750d64467e6c1b3eebdbb97fc013d8804cfab
 int main()
 {
     char s[MAXN], ss[MAXN];
@@ -71,4 +88,8 @@ int main()
             s[j] = ss[j];
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 39f750d64467e6c1b3eebdbb97fc013d8804cfab
